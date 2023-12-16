@@ -1,6 +1,7 @@
 # data_engineering_pipeline_project
 I have created a simple data engineering pipeline using Azure and used Spark ML to build a data science model for fraud detection using machine learning.
-![Picture1](https://github.com/hiteshg1318/data_engineering_pipeline_project/assets/68686869/9cfc6bbb-8429-4a3c-96c7-ae0ab52e4eff)
+![1](https://github.com/hiteshg1318/data_engineering_pipeline_project/assets/68686869/a3c2d547-d232-43a0-bd26-d90e1770b645)
+
 
 
 Step 1. Create Data pipe line in azure data factory with the CSV files that I have provided in this project. Pull the data into azure storage account (data lake gen 2) to raw container. See the image below for reference
