@@ -1,0 +1,4 @@
+spark.conf.set("fs.azure.account.auth.type.frauddetectiondata.dfs.core.windows.net", "SAS")
+spark.conf.set("fs.azure.sas.token.provider.type.frauddetectiondata.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.sas.FixedSASTokenProvider")
+spark.conf.set("fs.azure.sas.fixed.token.frauddetectiondata.dfs.core.windows.net", "sp=racwdl&st=2023-12-14T05:18:03Z&se=2024-01-01T13:18:03Z&spr=https&sv=2022-11-02&sr=c&sig=qIc5h8Q6amXcqu9BPRdIr5KFc8tNE9PK6Y5PdlWpLYI%3D")
+display(dbutils.fs.ls("abfss://raw@frauddetectiondata.dfs.core.windows.net"))
